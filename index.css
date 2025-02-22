@@ -1,0 +1,30 @@
+* {
+    background-color: #eee7d9;
+}
+
+.profileHeader > img, h1 {
+    display: inline-block;
+}
+
+.profilePhoto {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    position: relative;
+    margin: auto 100px;
+}
+
+.profileName {
+    position: relative;
+    margin: auto auto;
+}
+
+.profilePhoto img {
+    position: relative;
+    margin-right: auto;
+}
+
+.profileHonor {
+    font-family: "Times New Roman", cursive;
+    font-style: italic;
+}

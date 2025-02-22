@@ -1,50 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>Semantic HTML</title>
-    <link rel="stylesheet" type="text/css" href="semanticHTML.css">
+    <title>Yicheng Luo Main Page</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
+
 <body>
-<header>
-    <h1 id="NavLink">Navigational Links</h1>
-    <nav>
+<div class="profileHeader">
+
+    <img class="profilePhoto" src="./assets/profilePhoto.jpg" alt="profile photo"/>
+    <h1 class="profileName">Yicheng luo  罗一诚</h1>
+
+    <nav class="profileSocial">
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#posts">Posts</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <a href="assets/Yicheng%20Luo_Resume.pdf">Resume</a>
+
+            <a href="https://github.com/yluoc">Github</a> |
+            <a href="https://www.linkedin.com/in/yicl0914/?locale=en_US">LinkedIn</a>
         </ul>
     </nav>
-</header>
+</div>
 
-<main>
-    <section>
-        <article>
-            <h2>Facts About Dogs</h2>
-            <p>
-                Dogs have a sense of time. It's been proven that they know the difference between a hour and five. If conditioned to, they can predict future events, such as regular walk times.
-            </p>
-        </article>
-        <aside>
-            <p>A study was conducted on dogs being away from their owners for varying hours and the studies show that dogs who were away from their owners the longest showed the greatest amount of affection!
-            </p>
-        </aside>
-    </section>
-    <figure>
-        <img src="https://content.codecademy.com/courses/SemanticHTML/dogimage.jpeg"/>
-        <figcaption>A cute dog.</figcaption>
-    </figure>
-    <audio controls>
-        <source src="https://content.codecademy.com/courses/SemanticHTML/dogBarking.mp3" type="audio/mp3">
-    </audio>
-    <video src="https://content.codecademy.com/courses/SemanticHTML/dog-video.mp4" controls>
-    </video>
-    <embed src="https://content.codecademy.com/courses/SemanticHTML/dog-on-beach.gif"/>
+<div class="profileIntroduction">
+    <span>
+        I am Yicheng Luo, currently I am working at a startup company named Copani as Software Development Intern,
+        focusing on front-end development of the production web application.
+    </span>
+    <br>
+    <span>
+        I received my Bachelor degree of Computer Science from University at Buffalo (SUNY) with Latin Honor
+        <a class="profileHonor">(Cum Laude)</a> in 2024,
+        specializing in machine learning and deep learning.
+        During my undergraduate studies, I worked in an AI startup company as AI Development Intern to develop a CNN based
+        model, which can be used to predict the 3D object based on the 2D images
+        <a href="https://github.com/yluoc/CNNBased_2DImgTo3DMdl">(trial version of CNN based model)</a>, which achieves
+        <a class="profileHonor">100%</a> accuracy for simple roblox objects and <a class="profileHonor">94%</a> accuracy for complex objects with colorful backgrounds.
+    </span>
+</div>
 
-</main>
+<div class="profileWorkingExperience">
+    <h2>Working Experience</h2>
+</div>
 
-<footer>
-    <p>Contact me at +1 234 567 8910 </p>
-</footer>
+<div class="profileProjects">
+    <h2>Projects</h2>
+</div>
+
+<div class="profileContact">
+    <h2>Contact Me</h2>
+</div>
 
 </body>
 </html>
