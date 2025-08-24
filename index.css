@@ -90,6 +90,7 @@ body {
 }
 
 .profileWorkingExperience,
+.profileEducation,
 .profileProjects,
 .profileSkills,
 .profileCertifications,
@@ -100,6 +101,7 @@ body {
 }
 
 .profileWorkingExperience h2,
+.profileEducation h2,
 .profileProjects h2,
 .profileSkills h2,
 .profileCertifications h2,
@@ -113,12 +115,14 @@ body {
 }
 
 .profileWorkingExperience ul,
+.profileEducation ul,
 .profileCertifications ul {
     list-style: none;
     padding: 0;
 }
 
 .profileWorkingExperience li,
+.profileEducation li,
 .profileCertifications li {
     background-color: #f8f9fa;
     margin: 10px 0;
@@ -129,6 +133,7 @@ body {
 }
 
 .profileWorkingExperience li:hover,
+.profileEducation li:hover,
 .profileCertifications li:hover {
     transform: translateX(5px);
 }
@@ -169,6 +174,7 @@ body {
     
     .profileIntroduction,
     .profileWorkingExperience,
+    .profileEducation,
     .profileProjects,
     .profileSkills,
     .profileCertifications,
@@ -210,6 +216,7 @@ body {
     }
     
     .profileWorkingExperience h2,
+    .profileEducation h2,
     .profileProjects h2,
     .profileSkills h2,
     .profileCertifications h2,
