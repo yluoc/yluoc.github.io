@@ -121,8 +121,6 @@ body {
     padding: 0;
 }
 
-.profileWorkingExperience li,
-.profileEducation li,
 .profileCertifications li {
     background-color: #f8f9fa;
     margin: 10px 0;
@@ -132,10 +130,34 @@ body {
     transition: transform 0.2s ease;
 }
 
-.profileWorkingExperience li:hover,
-.profileEducation li:hover,
 .profileCertifications li:hover {
     transform: translateX(5px);
+}
+
+.profileEducation li {
+    background-color: #f8f9fa;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+}
+
+.education-line {
+    padding: 8px 0;
+    color: #2c3e50;
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+
+.education-line:first-child {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #3498db;
+}
+
+.education-line:last-child {
+    font-style: italic;
+    color: #ed0f0f;
 }
 
 .profileCertifications a {
@@ -159,7 +181,6 @@ body {
 
 /* Project Items Styling */
 .project-item {
-    background-color: #f8f9fa;
     margin: 15px 0;
     border-radius: 8px;
     border-left: 4px solid #3498db;
@@ -180,6 +201,7 @@ body {
     align-items: center;
     background-color: #f8f9fa;
     transition: background-color 0.3s ease;
+    border-radius: 8px 8px 0 0;
 }
 
 .project-header:hover {
@@ -233,6 +255,68 @@ body {
 }
 
 .project-description strong {
+    color: #2c3e50;
+}
+
+/* Experience Items Styling */
+.experience-item {
+    margin: 15px 0;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.experience-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.experience-header {
+    padding: 15px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    transition: background-color 0.3s ease;
+    border-radius: 8px 8px 0 0;
+}
+
+.experience-header:hover {
+    background-color: #e9ecef;
+}
+
+.experience-title {
+    color: #2c3e50;
+    font-weight: 600;
+    flex: 1;
+}
+
+.experience-description {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: #ffffff;
+    border-top: 1px solid #e9ecef;
+}
+
+.experience-description p {
+    margin: 0;
+    padding: 15px 20px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.experience-description p:first-child {
+    padding-top: 20px;
+}
+
+.experience-description p:last-child {
+    padding-bottom: 20px;
+}
+
+.experience-description strong {
     color: #2c3e50;
 }
 

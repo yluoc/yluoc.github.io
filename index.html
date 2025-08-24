@@ -10,12 +10,11 @@
 <div class="profileHeader">
 
     <img class="profilePhoto" src="./assets/profilePhoto.jpg" alt="profile photo"/>
-    <h1 class="profileName">Yicheng luo</h1>
+    <h1 class="profileName">Yicheng luo 罗一诚</h1>
 
     <nav class="profileSocial">
         <ul>
             <a href="assets/Yicheng%20Luo_Resume.pdf">Resume</a> |
-
             <a href="https://github.com/yluoc">Github</a> |
             <a href="https://www.linkedin.com/in/yicl0914/?locale=en_US">LinkedIn</a>
         </ul>
@@ -33,17 +32,41 @@
 <div class="profileEducation">
     <h2>Education</h2>
     <ul>
-        <li>University at Buffalo (SUNY), 
-            Bachelor of Science in Computer Science, 
-            Latin Honor (Cum Laude), Dean's List</li>
+        <li>
+            <div class="education-line">University at Buffalo (SUNY)</div>
+            <div class="education-line">Bachelor of Science in Computer Science</div>
+            <div class="education-line">Latin Honor (Cum Laude), Dean's List</div>
+        </li>
     </ul>
 </div>
 
 <div class="profileWorkingExperience">
     <h2>Working Experience</h2>
     <ul>
-        <li>Blockchain Engineer</li>
-        <li>Software Development Intern</li>
+        <li class="experience-item">
+            <div class="experience-header" onclick="toggleExperience(this)">
+                <span class="experience-title">Blockchain Engineer</span>
+                <span class="expand-icon">▼</span>
+            </div>
+            <div class="experience-description">
+                <p><strong>Company:</strong> LN Compute</p>
+                <p><strong>Duration:</strong> 2024 - Present</p>
+                <p>Working on blockchain technology solutions, focusing on smart contract development and DeFi applications. Contributing to the development of decentralized financial systems and blockchain infrastructure.</p>
+                <p><strong>Technologies:</strong> Solidity, Ethereum, Smart Contracts, DeFi, Foundry, Hardhat, Uniswap(v2, v3), Curve, Solana, Chainlink, Huff, Yul</p>
+            </div>
+        </li>
+        <li class="experience-item">
+            <div class="experience-header" onclick="toggleExperience(this)">
+                <span class="experience-title">Software Development Intern</span>
+                <span class="expand-icon">▼</span>
+            </div>
+            <div class="experience-description">
+                <p><strong>Company:</strong> Copani</p>
+                <p><strong>Duration:</strong> 2023 - 2024</p>
+                <p>Developed AI models and machine learning solutions. Worked on computer vision projects and contributed to the development of innovative AI applications.</p>
+                <p><strong>Technologies:</strong> Python, AI/ML, TensorFlow, Computer Vision, Deep Learning</p>
+            </div>
+        </li>
     </ul>
 </div>
 
@@ -139,7 +162,7 @@
 
 <div class="profileContact">
     <h2>Contact Me</h2>
-    <p>Email: lyc5dshhh@gmail.com</p>
+    <p>Email: nathan.yicluo@gmail.com</p>
     <p>Phone: (+1) 7165190919</p>
 </div>
 
@@ -159,6 +182,24 @@ function toggleProject(header) {
         description.style.maxHeight = description.scrollHeight + 'px';
         expandIcon.textContent = '▲';
         projectItem.classList.add('expanded');
+    }
+}
+
+function toggleExperience(header) {
+    const experienceItem = header.parentElement;
+    const description = experienceItem.querySelector('.experience-description');
+    const expandIcon = header.querySelector('.expand-icon');
+    
+    if (description.style.maxHeight) {
+        // Collapse
+        description.style.maxHeight = null;
+        expandIcon.textContent = '▼';
+        experienceItem.classList.remove('expanded');
+    } else {
+        // Expand
+        description.style.maxHeight = description.scrollHeight + 'px';
+        expandIcon.textContent = '▲';
+        experienceItem.classList.add('expanded');
     }
 }
 </script>
