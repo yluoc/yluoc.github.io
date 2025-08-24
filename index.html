@@ -50,25 +50,53 @@
 <div class="profileProjects">
     <h2>Projects</h2>
     <ul>
-        <li>
-            <a href="https://github.com/yluoc/CNNBased_2DImgTo3DMdl">
-                CNN Based 2D Image to 3D Model
-            </a>
+        <li class="project-item">
+            <div class="project-header" onclick="toggleProject(this)">
+                <a href="https://github.com/yluoc/CNNBased_2DImgTo3DMdl" target="_blank">
+                    CNN Based 2D Image to 3D Model
+                </a>
+                <span class="expand-icon">▼</span>
+            </div>
+            <div class="project-description">
+                <p>Developed a CNN-based model that can predict 3D objects from 2D images. Achieved 100% accuracy for simple objects and 94% accuracy for complex objects with colorful backgrounds. This project demonstrates advanced computer vision and deep learning techniques.</p>
+                <p><strong>Technologies:</strong> Python, TensorFlow, CNN, Computer Vision</p>
+            </div>
         </li>
-        <li>
-            <a href="https://github.com/yluoc/defi">
-                Decentralized Stable Coin (DSC)
-            </a>
+        <li class="project-item">
+            <div class="project-header" onclick="toggleProject(this)">
+                <a href="https://github.com/yluoc/defi" target="_blank">
+                    Decentralized Stable Coin (DSC)
+                </a>
+                <span class="expand-icon">▼</span>
+            </div>
+            <div class="project-description">
+                <p>Built a decentralized stable coin system with smart contracts that maintain price stability through algorithmic mechanisms. Implemented collateral management and liquidation protocols for DeFi applications.</p>
+                <p><strong>Technologies:</strong> Solidity, Ethereum, DeFi, Smart Contracts</p>
+            </div>
         </li>
-        <li>
-            <a href="https://github.com/yluoc/dsc-app-backend">
-                Next.js based RESTful API for DSC
-            </a>
+        <li class="project-item">
+            <div class="project-header" onclick="toggleProject(this)">
+                <a href="https://github.com/yluoc/dsc-app-backend" target="_blank">
+                    Next.js based RESTful API for DSC
+                </a>
+                <span class="expand-icon">▼</span>
+            </div>
+            <div class="project-description">
+                <p>Developed a comprehensive backend API for the Decentralized Stable Coin application using Next.js. Provides secure endpoints for user management, transaction processing, and blockchain integration.</p>
+                <p><strong>Technologies:</strong> Next.js, Node.js, RESTful API, Blockchain Integration</p>
+            </div>
         </li>
-        <li>
-            <a href="https://github.com/yluoc/Donattelo">
-                AI-based NFT Generator
-            </a>
+        <li class="project-item">
+            <div class="project-header" onclick="toggleProject(this)">
+                <a href="https://github.com/yluoc/Donattelo" target="_blank">
+                    AI-based NFT Generator
+                </a>
+                <span class="expand-icon">▼</span>
+            </div>
+            <div class="project-description">
+                <p>Created an AI-powered NFT generation platform that uses machine learning algorithms to create unique digital art. Users can generate, customize, and mint NFTs with AI assistance.</p>
+                <p><strong>Technologies:</strong> AI/ML, NFT, Blockchain, Python, React</p>
+            </div>
         </li>
     </ul>
 </div>
@@ -115,5 +143,24 @@
     <p>Phone: (+1) 7165190919</p>
 </div>
 
+<script>
+function toggleProject(header) {
+    const projectItem = header.parentElement;
+    const description = projectItem.querySelector('.project-description');
+    const expandIcon = header.querySelector('.expand-icon');
+    
+    if (description.style.maxHeight) {
+        // Collapse
+        description.style.maxHeight = null;
+        expandIcon.textContent = '▼';
+        projectItem.classList.remove('expanded');
+    } else {
+        // Expand
+        description.style.maxHeight = description.scrollHeight + 'px';
+        expandIcon.textContent = '▲';
+        projectItem.classList.add('expanded');
+    }
+}
+</script>
 </body>
 </html>
