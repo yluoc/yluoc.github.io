@@ -10,6 +10,7 @@ const ProfileHeader: React.FC = () => {
         alt="profile photo"
         width={200}
         height={200}
+        priority
       />
       <h1 className="profileName">Yicheng Luo  罗一诚</h1>
 
