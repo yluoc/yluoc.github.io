@@ -320,6 +320,32 @@ body {
     color: #2c3e50;
 }
 
+/* Skills Styling */
+.profileSkills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profileSkills li {
+    background-color: #f8f9fa;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+}
+
+.profileSkills h5 {
+    color: #2c3e50;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.profileSkills p {
+    color: #555;
+    line-height: 1.6;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     body {
