@@ -8,8 +8,6 @@ yarn-error.log*
 .next/
 out/
 build/
-
-# Production
 dist/
 
 # Environment variables
@@ -18,12 +16,14 @@ dist/
 .env.development.local
 .env.test.local
 .env.production.local
+.env.test
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+.vscode-test
 
 # OS
 .DS_Store
@@ -63,9 +63,6 @@ jspm_packages/
 .cache
 .parcel-cache
 
-# next.js build output
-.next
-
 # nuxt.js build output
 .nuxt
 
@@ -83,3 +80,22 @@ jspm_packages/
 
 # TernJS port file
 .tern-port
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
