@@ -54,36 +54,42 @@ const NextJSMigration: React.FC = () => {
         </Link>
         
         {projectEntries.map((entry) => (
-          <div key={entry.id}>
+          <div key={entry.id} style={{
+            border: '2px solid #000000',
+            borderRadius: '8px',
+            padding: '30px',
+            marginBottom: '20px',
+            backgroundColor: '#ffffff'
+          }}>
             {/* Date */}
-            <div style={{ 
-              fontSize: '0.9rem', 
-              color: '#666666', 
+            <div style={{
+              fontSize: '0.9rem',
+              color: '#666666',
               marginBottom: '8px',
               fontWeight: '400'
             }}>
               {entry.date}
             </div>
-            
+
             {/* Title */}
-            <h1 style={{ 
-              color: '#000000', 
-              fontSize: '2rem', 
+            <h1 style={{
+              color: '#000000',
+              fontSize: '2rem',
               marginBottom: '30px',
               fontWeight: '600',
               lineHeight: '1.2'
             }}>
               {entry.title}
             </h1>
-            
-               {/* Details */}
-               <div className="project-content" style={{
-                 fontSize: '1rem',
-                 lineHeight: '1.6',
-                 color: '#333333'
-               }}>
-                 <ReactMarkdown>{entry.details}</ReactMarkdown>
-               </div>
+
+            {/* Details */}
+            <div className="project-content" style={{
+              fontSize: '1rem',
+              lineHeight: '1.6',
+              color: '#333333'
+            }}>
+              <ReactMarkdown>{entry.details}</ReactMarkdown>
+            </div>
           </div>
         ))}
       </div>
