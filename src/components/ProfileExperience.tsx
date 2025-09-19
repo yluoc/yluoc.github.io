@@ -52,7 +52,7 @@ const ProfileExperience: React.FC = () => {
     {
       title: "Software Development Intern",
       company: "Copani",
-      duration: "2023 - 2024",
+      duration: "2024",
       description: "Developed AI models and machine learning solutions. Worked on computer vision projects and contributed to the development of innovative AI applications.",
       technologies: "Python, AI/ML, TensorFlow, Computer Vision, Deep Learning"
     }
