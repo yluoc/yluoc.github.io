@@ -33,14 +33,14 @@ const NextJSMigration: React.FC = () => {
     },
     {
       id: 3,
-      date: '2025-09-06',
+      date: '2025-09-18',
       title: 'DSP deep learning model Devs Logs: Hough circle detection',
       details: `Capture planet frames by recording game screen and only focusing on planet using OBS, then use Hough circle detection to find the planet center.
       Also need to use YOLO to get the resources location that I may use the location coordinates to render the planet model`
     },
     {
       id: 4,
-      date: '2025-09-06',
+      date: '2025-09-18',
       title: 'DSP deep learning model Devs Logs: Considering to give up planet model generation',
       details: `Still, even config a pre-trained model can't satisfy my requirement, I may give up this idea. Maybe Three.js can do the job, create a sphere at first, then render the resources' location
       on the sphere to simulate the planet, this could working but still on YOLOdata labeling and testing.`
