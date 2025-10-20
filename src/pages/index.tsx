@@ -8,7 +8,6 @@ import ProfileProjects from '../components/ProfileProjects';
 import ProfileSkills from '../components/ProfileSkills';
 import ProfileCertifications from '../components/ProfileCertifications';
 import ProfileContact from '../components/ProfileContact';
-import DevsLog from '../components/DevsLog';
 
 const Home: React.FC = () => {
   return (
@@ -19,7 +18,6 @@ const Home: React.FC = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       
-      <DevsLog />
       <ProfileHeader />
       <ProfileIntroduction />
       <ProfileEducation />

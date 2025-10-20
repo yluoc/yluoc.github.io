@@ -41,6 +41,12 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
 const ProfileProjects: React.FC = () => {
   const projects = [
     {
+      title: "DeSSN - Blockchain Address Analyzer",
+      url: "https://github.com/yluoc/DeSSN",
+      description: "A comprehensive blockchain address analysis tool that provides detailed insights about wallet activity, DeFi interactions, and calculates a Blockchain Credit Score (300-850 range) based on on-chain behavior. Helps web3 users have a safer experience in the web3 world.",
+      technologies: "Next.js, TypeScript, Etherscan API, DeBank API, Web3, Blockchain Analysis"
+    },
+    {
       title: "CNN Based 2D Image to 3D Model",
       url: "https://github.com/yluoc/CNNBased_2DImgTo3DMdl",
       description: "Developed a CNN-based model that can predict 3D objects from 2D images. Achieved 100% accuracy for simple objects and 94% accuracy for complex objects with colorful backgrounds. This project demonstrates advanced computer vision and deep learning techniques.",
