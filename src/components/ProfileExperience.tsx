@@ -45,16 +45,16 @@ const ProfileExperience: React.FC = () => {
     {
       title: "Blockchain Engineer",
       company: "LN Compute",
-      duration: "2024 - Present",
-      description: "Working on blockchain technology solutions, focusing on smart contract development and DeFi applications. Contributing to the development of decentralized financial systems and blockchain infrastructure.",
-      technologies: "Solidity, Ethereum, Smart Contracts, DeFi, Foundry, Hardhat, Uniswap(v2, v3), Curve, Solana, Chainlink, Huff, Yul"
+      duration: "2025 - Present",
+      description: "Working on blockchain technology solutions, focusing on web3 Dapps, smart contract development and DeFi applications.",
+      technologies: "Solidity, Ethereum, Smart Contracts, DeFi, Foundry, Hardhat, Uniswap(v2, v3, v4), Curve, Aave V3, Solana, Chainlink, Huff, Yul"
     },
     {
       title: "Software Development Intern",
       company: "Copani",
       duration: "2024",
       description: "Developed AI models and machine learning solutions. Worked on computer vision projects and contributed to the development of innovative AI applications.",
-      technologies: "Python, AI/ML, TensorFlow, Computer Vision, Deep Learning"
+      technologies: "Python, AI/ML, Numpy, TensorFlow, Computer Vision, Deep Learning"
     }
   ];
 
