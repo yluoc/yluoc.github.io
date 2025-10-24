@@ -4,10 +4,9 @@ const ProfileIntroduction: React.FC = () => {
   return (
     <div className="profileIntroduction">
       <span>
-        I am Yicheng Luo, currently I am working at a startup company as Blockchain Engineer,
-        focusing on developing web3 dapps and blockchain solutions.
-        Besides, I am interested in C++ development,
-        especially in C++ development for quantitative finance and high-concurrency applications.
+        Hello, I am Yicheng, currently I am working at a startup company as a Blockchain Engineer, focusing on developing web3 dapps and blockchain solutions.
+        Besides, I am working as a full-stack engineer with my alumni to build an AI tool to enpower Automating Technical Business.
+        I am interested in DSP(Dyson Sphere Program) and try to build interesting mods for it.
       </span>
     </div>
   );

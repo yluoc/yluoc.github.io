@@ -70,11 +70,12 @@ body {
 
 .profileIntroduction {
     max-width: 800px;
-    margin: 0 auto 40px auto;
-    padding: 20px;
+    margin: 0 0 40px 40px;
+    padding: 0;
     text-align: justify;
     font-size: 1.1rem;
     line-height: 1.8;
+    color: #222;
 }
 
 .profileIntroduction span {
