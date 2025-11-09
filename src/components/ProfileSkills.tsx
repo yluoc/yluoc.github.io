@@ -12,12 +12,12 @@ const ProfileSkills: React.FC = () => {
 
         <li>
           <h5>Frameworks:</h5>
-          <p>React.js, Next.js, Node.js, Express.js, Flask, FastAPI, MongoDB, PostgreSQL</p>
+          <p>React.js, Next.js, Node.js, Flask, FastAPI, MongoDB, PostgreSQL</p>
         </li>
 
         <li>
           <h5>Blockchain:</h5>
-          <p>Ethers.js, Foundry, Hardhat, Uniswap(v2, v3), Curve, Solana, Chainlink, Huff, Yul</p>
+          <p>Ethers.js, Foundry, Hardhat, Uniswap(v2, v3, v4), Curve, Solana, Chainlink, Huff, Yul</p>
         </li>
 
         <li>

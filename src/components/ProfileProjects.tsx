@@ -56,19 +56,19 @@ const ProfileProjects: React.FC = () => {
       title: "Decentralized Stable Coin (DSC)",
       url: "https://github.com/yluoc/defi",
       description: "Built a decentralized stable coin system with smart contracts that maintain price stability through algorithmic mechanisms. Implemented collateral management and liquidation protocols for DeFi applications.",
-      technologies: "Solidity, Ethereum, DeFi, Smart Contracts"
+      technologies: "Solidity, Ethereum, DeFi, Smart Contracts, OpenZeppelin"
     },
     {
       title: "Next.js based RESTful API for DSC",
       url: "https://github.com/yluoc/dsc-app-backend",
       description: "Developed a comprehensive backend API for the Decentralized Stable Coin application using Next.js. Provides secure endpoints for user management, transaction processing, and blockchain integration.",
-      technologies: "Next.js, Node.js, RESTful API, Blockchain Integration"
+      technologies: "Next.js, Node.js, Ethers.js, RESTful API, Blockchain Integration"
     },
     {
       title: "AI-based NFT Generator",
       url: "https://github.com/yluoc/Donattelo",
       description: "Created an AI-powered NFT generation platform that uses machine learning algorithms to create unique digital art. Users can generate, customize, and mint NFTs with AI assistance.",
-      technologies: "AI/ML, NFT, Blockchain, Python, React"
+      technologies: "GenAI, Gemini API, NFT, Blockchain, Python, React"
     }
   ];
 
