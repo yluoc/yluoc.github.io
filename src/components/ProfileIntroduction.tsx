@@ -6,8 +6,7 @@ const ProfileIntroduction: React.FC = () => {
       <h2>About Me</h2>
       <div className="introduction-content">
         <p>
-          Hello, I am Yicheng, currently I am working at a startup company as a Blockchain Engineer, focusing on developing web3 dapps and blockchain solutions.
-          Besides, I am working as a full-stack engineer with my alumni to build an AI tool to enpower Automating Technical Business.
+          Quant-oriented software engineer with a strong computer science foundation and hands-on experience building crypto-native infrastructure, deterministic backend systems, and data-driven pipelines. Proficient in Python and C++ with exposure to market data ingestion, numerical analysis, and performance-sensitive system design. Targeting Quant Developer / Trading Systems roles in crypto and proprietary trading environments.
         </p>
       </div>
     </div>

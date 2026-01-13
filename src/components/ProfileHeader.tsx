@@ -12,7 +12,7 @@ const ProfileHeader: React.FC = () => {
         height={200}
         priority
       />
-      <h1 className="profileName">Yicheng Luo  罗一诚</h1>
+      <h1 className="profileName">Yicheng(Bill) Luo  罗一诚</h1>
 
       <nav className="profileSocial">
         <ul>

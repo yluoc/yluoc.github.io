@@ -43,18 +43,18 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
 const ProfileExperience: React.FC = () => {
   const experiences = [
     {
-      title: "Blockchain Engineer",
-      company: "LN Compute",
-      duration: "2025 April - Present",
-      description: "Working on blockchain technology solutions, focusing on web3 Dapps, smart contract development and DeFi applications.",
-      technologies: "Solidity, Ethereum, Smart Contracts, DeFi, Foundry, Hardhat, Uniswap(v2, v3, v4), Curve, Aave V3, Solana, Chainlink, Huff, Yul"
+      title: "BlockChain Engineer",
+      company: "LN Compute (Atlanta, GA)",
+      duration: "April 2025 - Present",
+      description: "Designed and implemented performance-oriented smart-contract systems using Solidity, Huff, and Yul, emphasizing deterministic execution, correctness, and auditability. Built backend services in TypeScript / Node.js to coordinate state transitions and event-driven workflows across distributed participants. Modeled operational workflows using SQL and structured data analysis, identifying bottlenecks and translating real-world constraints into system-level optimizations. Developed data pipelines and monitoring logic to support real-time state visibility and fault detection, concepts directly applicable to trading and settlement systems. Quant signal: deterministic systems, correctness under constraints, data-driven optimization.",
+      technologies: "Solidity, Huff, Yul, TypeScript, Node.js, SQL, Smart Contracts, Data Pipelines"
     },
     {
-      title: "Software Development Intern",
-      company: "Copani",
-      duration: "2024 June - 2024 August",
-      description: "Developed deep learning models for object detection and 3D model generation.",
-      technologies: "Python, AI/ML, Numpy, TensorFlow, Computer Vision, Deep Learning"
+      title: "AI Development Intern — Research & Development",
+      company: "Copani (Cicero, NY)",
+      duration: "June 2024 - August 2024",
+      description: "Preprocessed and analyzed structured datasets using Python (Pandas, NumPy) with statistical validation to ensure data integrity. Implemented a CNN model in TensorFlow, focusing on reproducibility, numerical stability, and evaluation metrics. Deployed a RESTful inference service using Flask, emphasizing reliability, latency awareness, and production readiness. Quant signal: numerical computing, data pipelines, production systems.",
+      technologies: "Python, Pandas, NumPy, TensorFlow, Flask, CNN, Machine Learning"
     }
   ];
 

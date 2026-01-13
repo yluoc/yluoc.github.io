@@ -7,22 +7,27 @@ const ProfileSkills: React.FC = () => {
       <ul>
         <li>
           <h5>Programming Languages:</h5>
-          <p>Python, C++, C, JavaScript, TypeScript, Solidity, Rust</p>
+          <p>Python (NumPy, Pandas, vectorized computation), C++, Typescript, Javascript, Solidity, Yul</p>
         </li>
 
         <li>
-          <h5>Frameworks:</h5>
-          <p>React.js, Next.js, Node.js, Flask, FastAPI, MongoDB, PostgreSQL</p>
+          <h5>Quant & Data:</h5>
+          <p>Probability & statistics, time-series concepts, PnL attribution, drawdown & volatility analysis, numerical modeling</p>
         </li>
 
         <li>
-          <h5>Blockchain:</h5>
-          <p>Ethers.js, Foundry, Hardhat, Uniswap(v2, v3, v4), Curve, Solana, Chainlink, Huff, Yul</p>
+          <h5>Trading & Crypto Systems:</h5>
+          <p>Market data ingestion (REST / WebSocket), exchange API integration, order-lifecycle concepts, DeFi protocol mechanics, EVM execution and gas dynamics</p>
         </li>
 
         <li>
-          <h5>Tools:</h5>
-          <p>Git, Docker, AWS, Azure, CI/CD, DevOps</p>
+          <h5>Infrastructure & Systems:</h5>
+          <p>Linux, Docker, AWS, PostgreSQL, Redis, Git</p>
+        </li>
+
+        <li>
+          <h5>Smart-contract tooling:</h5>
+          <p>Foundry, Hardhat, OpenZeppelin, Chainlink</p>
         </li>
       </ul>
     </div>

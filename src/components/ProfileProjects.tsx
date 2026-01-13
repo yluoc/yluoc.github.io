@@ -41,34 +41,16 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
 const ProfileProjects: React.FC = () => {
   const projects = [
     {
-      title: "DeSSN - Blockchain Address Analyzer",
-      url: "https://github.com/yluoc/DeSSN",
-      description: "A comprehensive blockchain address analysis tool that provides detailed insights about wallet activity, DeFi interactions, and calculates a Blockchain Credit Score (300-850 range) based on on-chain behavior. Helps web3 users have a safer experience in the web3 world.",
-      technologies: "Next.js, TypeScript, Etherscan API, DeBank API, Web3, Blockchain Analysis"
+      title: "High-Performance Limit Order Book & Matching Engine",
+      url: "#",
+      description: "A high-performance limit order book and matching engine implementation.",
+      technologies: "C++, Python, Trading Systems, Data Structures"
     },
     {
-      title: "CNN Based 2D Image to 3D Model",
-      url: "https://github.com/yluoc/CNNBased_2DImgTo3DMdl",
-      description: "Developed a CNN-based model that can predict 3D objects from 2D images. Achieved 100% accuracy for simple objects and 94% accuracy for complex objects with colorful backgrounds. This project demonstrates advanced computer vision and deep learning techniques.",
-      technologies: "Python, TensorFlow, CNN, Computer Vision"
-    },
-    {
-      title: "Decentralized Stable Coin (DSC)",
-      url: "https://github.com/yluoc/defi",
-      description: "Built a decentralized stable coin system with smart contracts that maintain price stability through algorithmic mechanisms. Implemented collateral management and liquidation protocols for DeFi applications.",
-      technologies: "Solidity, Ethereum, DeFi, Smart Contracts, OpenZeppelin"
-    },
-    {
-      title: "Next.js based RESTful API for DSC",
-      url: "https://github.com/yluoc/dsc-app-backend",
-      description: "Developed a comprehensive backend API for the Decentralized Stable Coin application using Next.js. Provides secure endpoints for user management, transaction processing, and blockchain integration.",
-      technologies: "Next.js, Node.js, Ethers.js, RESTful API, Blockchain Integration"
-    },
-    {
-      title: "AI-based NFT Generator",
-      url: "https://github.com/yluoc/Donattelo",
-      description: "Created an AI-powered NFT generation platform that uses machine learning algorithms to create unique digital art. Users can generate, customize, and mint NFTs with AI assistance.",
-      technologies: "GenAI, Gemini API, NFT, Blockchain, Python, React"
+      title: "Real-Time Crypto Market Data Pipeline with Latency Analysis",
+      url: "#",
+      description: "Real-time cryptocurrency market data pipeline with comprehensive latency analysis capabilities.",
+      technologies: "Python, WebSocket, REST API, Data Pipelines, Time-Series Analysis"
     }
   ];
 
