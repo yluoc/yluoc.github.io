@@ -8,13 +8,12 @@ const ProfileEducation: React.FC = () => {
         <li>
           <div className="education-line">WorldQuant University</div>
           <div className="education-line">Master of Science in Financial Engineering</div>
-          <div className="education-line">January 2025 - Present</div>
         </li>
         <li>
           <div className="education-line">University at Buffalo. The State University of New York</div>
-          <div className="education-line">Bachelor of Engineering, Computer Science (Honors: Cum Laude, Dean's List)</div>
-          <div className="education-line">August 2024</div>
-          <div className="education-line">Relevant Coursework: Algorithms · Probability & Statistics · Operating Systems · Distributed Systems · Numerical Computing</div>
+          <div className="education-line">Bachelor of Engineering, Computer Science</div>
+          <div className="education-subsection">Latin Honor: Cum Laude, Dean's List</div>
+          <div className="education-subsection">Relevant Coursework: Algorithms · Probability & Statistics · Operating Systems · Distributed Systems · Numerical Computing</div>
         </li>
       </ul>
     </div>

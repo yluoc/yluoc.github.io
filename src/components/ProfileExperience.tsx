@@ -4,7 +4,8 @@ interface ExperienceItemProps {
   title: string;
   company: string;
   duration: string;
-  description: string;
+  bulletPoints: string[];
+  quantSignal: string;
   technologies: string;
 }
 
@@ -12,7 +13,8 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
   title, 
   company, 
   duration, 
-  description, 
+  bulletPoints,
+  quantSignal,
   technologies 
 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -33,7 +35,12 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
       >
         <p><strong>Company:</strong> {company}</p>
         <p><strong>Duration:</strong> {duration}</p>
-        <p>{description}</p>
+        <ul className="experience-bullets">
+          {bulletPoints.map((point, index) => (
+            <li key={index}>{point}</li>
+          ))}
+        </ul>
+        <p className="quant-signal"><strong>Quant signal:</strong> {quantSignal}</p>
         <p><strong>Technologies:</strong> {technologies}</p>
       </div>
     </li>
@@ -46,14 +53,25 @@ const ProfileExperience: React.FC = () => {
       title: "BlockChain Engineer",
       company: "LN Compute (Atlanta, GA)",
       duration: "April 2025 - Present",
-      description: "Designed and implemented performance-oriented smart-contract systems using Solidity, Huff, and Yul, emphasizing deterministic execution, correctness, and auditability. Built backend services in TypeScript / Node.js to coordinate state transitions and event-driven workflows across distributed participants. Modeled operational workflows using SQL and structured data analysis, identifying bottlenecks and translating real-world constraints into system-level optimizations. Developed data pipelines and monitoring logic to support real-time state visibility and fault detection, concepts directly applicable to trading and settlement systems. Quant signal: deterministic systems, correctness under constraints, data-driven optimization.",
+      bulletPoints: [
+        "Designed and implemented performance-oriented smart-contract systems using Solidity, Huff, and Yul, emphasizing deterministic execution, correctness, and auditability.",
+        "Built backend services in TypeScript / Node.js to coordinate state transitions and event-driven workflows across distributed participants.",
+        "Modeled operational workflows using SQL and structured data analysis, identifying bottlenecks and translating real-world constraints into system-level optimizations.",
+        "Developed data pipelines and monitoring logic to support real-time state visibility and fault detection, concepts directly applicable to trading and settlement systems."
+      ],
+      quantSignal: "deterministic systems, correctness under constraints, data-driven optimization",
       technologies: "Solidity, Huff, Yul, TypeScript, Node.js, SQL, Smart Contracts, Data Pipelines"
     },
     {
       title: "AI Development Intern — Research & Development",
       company: "Copani (Cicero, NY)",
       duration: "June 2024 - August 2024",
-      description: "Preprocessed and analyzed structured datasets using Python (Pandas, NumPy) with statistical validation to ensure data integrity. Implemented a CNN model in TensorFlow, focusing on reproducibility, numerical stability, and evaluation metrics. Deployed a RESTful inference service using Flask, emphasizing reliability, latency awareness, and production readiness. Quant signal: numerical computing, data pipelines, production systems.",
+      bulletPoints: [
+        "Preprocessed and analyzed structured datasets using Python (Pandas, NumPy) with statistical validation to ensure data integrity.",
+        "Implemented a CNN model in TensorFlow, focusing on reproducibility, numerical stability, and evaluation metrics.",
+        "Deployed a RESTful inference service using Flask, emphasizing reliability, latency awareness, and production readiness."
+      ],
+      quantSignal: "numerical computing, data pipelines, production systems",
       technologies: "Python, Pandas, NumPy, TensorFlow, Flask, CNN, Machine Learning"
     }
   ];
@@ -68,7 +86,8 @@ const ProfileExperience: React.FC = () => {
             title={exp.title}
             company={exp.company}
             duration={exp.duration}
-            description={exp.description}
+            bulletPoints={exp.bulletPoints}
+            quantSignal={exp.quantSignal}
             technologies={exp.technologies}
           />
         ))}
