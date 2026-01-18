@@ -42,9 +42,9 @@ const ProfileProjects: React.FC = () => {
   const projects = [
     {
       title: "High-Performance Limit Order Book & Matching Engine",
-      url: "#",
+      url: "https://github.com/yluoc/high-performance-limit-order-book-matching-engine",
       description: "A high-performance limit order book and matching engine implementation.",
-      technologies: "C++, Python, Trading Systems, Data Structures"
+      technologies: "C++, Trading Systems, Data Structures"
     },
     {
       title: "Real-Time Crypto Market Data Pipeline with Latency Analysis",
