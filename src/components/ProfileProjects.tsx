@@ -48,7 +48,7 @@ const ProfileProjects: React.FC = () => {
     },
     {
       title: "Real-Time Crypto Market Data Pipeline with Latency Analysis",
-      url: "#",
+      url: "https://github.com/yluoc/real-time-crypto-market-data-pipeline",
       description: "Real-time cryptocurrency market data pipeline with comprehensive latency analysis capabilities.",
       technologies: "Python, WebSocket, REST API, Data Pipelines, Time-Series Analysis"
     }
