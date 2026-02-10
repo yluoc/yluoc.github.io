@@ -16,7 +16,7 @@ const ProfileHeader: React.FC = () => {
 
       <nav className="profileSocial">
         <ul>
-          <li><a href="/assets/YichengLuo_QD Resume.pdf">Resume</a></li>
+          <li><a href="/assets/YichengLuo_QD_Resume.pdf">Resume</a></li>
           <li><a href="https://github.com/yluoc">Github</a></li>
           <li><a href="https://www.linkedin.com/in/yicl0914/?locale=en_US">LinkedIn</a></li>
         </ul>
