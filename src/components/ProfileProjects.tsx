@@ -41,6 +41,18 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
 const ProfileProjects: React.FC = () => {
   const projects = [
     {
+      title: "Quant-Kernel",
+      url: "https://github.com/yluoc/Quant-Kernel",
+      description: "A quantitative trading core project focused on reusable components for research and execution workflows.",
+      technologies: "C++, Cython, GPU Accerlation, Python, Quantitative Finance, Trading Systems"
+    },
+    {
+      title: "Quantum-Flow",
+      url: "https://github.com/yluoc/Quantum-Flow",
+      description: "A project for building streamlined data and strategy workflows for quantitative development.",
+      technologies: "Python, Data Pipelines, Quantitative Research"
+    },
+    {
       title: "High-Performance Limit Order Book & Matching Engine",
       url: "https://github.com/yluoc/high-performance-limit-order-book-matching-engine",
       description: "A high-performance limit order book and matching engine implementation.",
