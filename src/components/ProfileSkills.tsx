@@ -1,6 +1,6 @@
 import React from 'react';
 
-const skills: string[] = ['Python', 'C/C++', 'Rust', 'Cloud', 'Go', 'Linux', 'Distributed System'];
+const skills: string[] = ['Python', 'C/C++', 'Rust', 'Go', 'Linux'];
 
 const ProfileSkills: React.FC = () => {
   return (
